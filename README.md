@@ -13,7 +13,7 @@ The project uses an external style writing method. JS functions were used to cre
 
 Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://simonasablinaite.github.io/car-racing-game/
+Site published at: https://practical-projects.github.io/shuffle-project/
 
 Design: [Shuffle](https://shuffle.qodeinteractive.com/aap/)
 
