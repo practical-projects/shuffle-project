@@ -4,5 +4,6 @@ body * {
   padding: 0;
   vertical-align: top;
   box-sizing: border-box;
-  font-family: "Oswald";
+body {
+  font-family: "Oswald", sans-serif;
 }
