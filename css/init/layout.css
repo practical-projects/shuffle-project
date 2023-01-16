@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: khaki;
+}
+
+.logo {
+  padding: 15px 20px 15px 20px;
+}
+
+.logo > a {
+  font-size: 32px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  padding: 15px 20px 15px 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
