@@ -15,12 +15,24 @@ header {
 .nav {
   display: flex;
   align-items: center;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .socials {
   display: flex;
   align-items: center;
+  font-weight: 500;
+  background-color: none;
+}
+
+.socials a:hover {
+  color: #86c9ef;
+}
+
+.socials a:first-child:hover,
+.socials a:last-child:hover {
+  color: #ce3c70;
 }
 
 a {
