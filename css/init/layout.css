@@ -19,6 +19,16 @@ header {
   text-transform: uppercase;
 }
 
+.dropdown {
+}
+
+.submeniu {
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  left: 150px;
+}
+
 .socials {
   display: flex;
   align-items: center;
