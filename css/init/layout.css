@@ -49,7 +49,7 @@
   float: left;
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
-  text-align: left;
+  text-align: center;
 }
 
 .row > .col-1 {
