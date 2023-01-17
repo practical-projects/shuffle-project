@@ -4,7 +4,6 @@
 /* 3-rd-party */
 /* components */
 
-
 /* Header start */
 /* Header end */
 
@@ -18,13 +17,18 @@
 /* New-album end */
 
 /* Dark-tour start */
+.dark-tour > h3,
+p {
+  text-align: center;
+}
 /* Dark-tour end */
 
 /* Join-the-mailing start */
+.join-mailing > h3,
+div {
+  text-align: center;
+}
 /* Join-the-mailing end */
 
 /* Footer start */
 /* Footer end */
-
-
-
