@@ -14,19 +14,32 @@ header {
 
 .nav {
   display: flex;
+  position: relative;
   align-items: center;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .dropdown {
+  display: inline-block;
+  position: relative;
 }
 
 .submeniu {
+  display: none;
+  position: absolute;
+
+  background: rgb(133, 5, 5);
+  line-height: 20px;
+
+  box-shadow: 0px 5px 30px rgb(0 0 0 / 10%);
+}
+
+.nav .dropdown:hover .submeniu {
   display: flex;
   flex-direction: column;
-  top: 50px;
-  left: 150px;
+
+  background-color: #ce3c70;
 }
 
 .socials {
