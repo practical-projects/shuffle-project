@@ -31,8 +31,14 @@ header {
   position: absolute;
 
   background: rgb(133, 5, 5);
+}
 
-  box-shadow: 0px 5px 30px rgb(0 0 0 / 10%);
+.submeniu a {
+  padding: 0 0 20px 0;
+}
+
+.submeniu a:first-child {
+  padding: 20px 0 20px 0;
 }
 
 .nav .dropdown:hover .submeniu {
@@ -40,20 +46,15 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  padding: 0 0 0 15px;
-
+  width: 150px;
+  top: 20px;
+  right: 0;
   background-color: #ce3c70;
 }
 
 .nav .dropdown:nth-child(3):hover .submeniu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  padding: 0 0 0 0;
-  margin-right: 100px;
+  padding: 20px 0;
+  left: -50px;
   background-color: #12070a;
 }
 
