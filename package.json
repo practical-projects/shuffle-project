@@ -1,7 +1,7 @@
 {
   "name": "suffle-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)\r ![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)\r ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)\r ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)",
   "main": "index.js",
   "scripts": {
     "dev": "dead-server --port=3000 --host=localhost",
@@ -12,5 +12,13 @@
   "license": "MIT",
   "devDependencies": {
     "dead-server": "^1.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/practical-projects/shuffle-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/practical-projects/shuffle-project/issues"
+  },
+  "homepage": "https://github.com/practical-projects/shuffle-project#readme"
 }
