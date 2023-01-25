@@ -149,6 +149,10 @@ header {
     width: 100%;
   }
 
+  .dropdown .fas {
+    padding: 3px 0 0 10px;
+  }
+
   .socials {
     padding: 20px 0;
     border: none;
