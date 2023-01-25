@@ -102,7 +102,17 @@ header {
 }
 
 /* responsive header */
-@media (max-width: 770px) {
+@media (min-width: 867px) {
+  .hamburger {
+    display: none;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+@media (max-width: 867px) {
   header {
     display: flex;
     flex-direction: column;
@@ -124,14 +134,13 @@ header {
     display: grid;
     flex-direction: column;
     text-align: center;
-
     transform: translateY(-150%);
     z-index: 1;
     background-color: aquamarine;
   }
 
   .nav a {
-    padding: 0 0 0 0;
+    padding: 20px 0;
   }
 
   .dropdown {
@@ -146,7 +155,7 @@ header {
   }
 
   .socials a {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .nav .dropdown:nth-child(2):hover .submeniu {
@@ -154,11 +163,12 @@ header {
   }
 
   .nav .dropdown:hover .submeniu {
-    top: 40px;
+    display: flex;
+    top: 18px;
     left: 0px;
     width: 100%;
-    padding: 0 0 50px 0;
-    position: initial;
+    padding: 0;
+    position: inherit;
   }
 
   input {
