@@ -1,6 +1,7 @@
 /* base */
 @import "../css/init/reset.css";
 @import "../css/init/layout.css";
+@import "../css/init/base.css";
 /* 3-rd-party */
 /* components */
 
@@ -142,9 +143,16 @@ header {
 /* Video-section end */
 
 /* New-album start */
+.title-30 {
+  font-size: 30px;
+  line-height: normal;
+}
 /* New-album end */
 
 /* Dark-tour start */
+.paragraph-center {
+  text-align: center;
+}
 /* Dark-tour end */
 
 /* Join-the-mailing start */

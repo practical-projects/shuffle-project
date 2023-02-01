@@ -1,0 +1,49 @@
+.bg-black {
+   background-color: #000;
+}
+
+.bg-dark-grey {
+   background-color: #1c1c1c;
+}
+
+.footer-color {
+   color: #626262;
+}
+
+.small-title {
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 46px;
+   font-family: 'Oswald';
+   font-weight: 600;
+   line-height: 55px;
+   text-align: left;
+   padding: 20px 20px 0 20px;
+}
+
+.paragraph-left {
+   color: #fff;
+   margin-top: 20px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 22px;
+   font-weight: 400;
+   text-align: left;
+   padding: 0 20px 0 20px;
+}
+
+.biggest-title {
+   font-family: "Oswald";
+   font-size: 60px;
+   color: #fff;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+
+.ftr-title {
+   font-family: 'Oswald', sans-serif;
+   color: #fff;
+   font-size: 25px;
+   font-weight: 400;
+}
+
+
