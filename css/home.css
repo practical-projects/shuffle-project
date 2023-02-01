@@ -159,4 +159,7 @@ header {
 /* Join-the-mailing end */
 
 /* Footer start */
+.align-left > h4, p, img, h5{
+  text-align: left;
+}
 /* Footer end */
