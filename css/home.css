@@ -102,16 +102,27 @@ header {
   color: #ce3c70;
 }
 
-/* header responsive */
-@media (max-width: 770px) {
+/* responsive header */
+@media (min-width: 867px) {
+  .hamburger {
+    display: none;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+@media (max-width: 867px) {
   header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 1%;
   }
 
   .logo a {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .hamburger {
@@ -121,19 +132,58 @@ header {
   }
 
   .nav {
-    display: flex;
+    display: grid;
     flex-direction: column;
     text-align: center;
+    transform: translateY(-150%);
+    z-index: 1;
+    background-color: aquamarine;
   }
 
   .nav a {
-    padding: 0;
-    width: 100%;
-    text-align: center;
+    padding: 20px 0;
+  }
+
+  .dropdown {
+    padding: 18px 0;
     border-bottom: 0.5px solid #fff;
+    width: 100%;
+  }
+
+  .dropdown .fas {
+    padding: 3px 0 0 10px;
+  }
+
+  .socials {
+    padding: 20px 0;
+    border: none;
+  }
+
+  .socials a {
+    padding: 0 10px;
+  }
+
+  .nav .dropdown:nth-child(2):hover .submeniu {
+    left: 0px;
+  }
+
+  .nav .dropdown:hover .submeniu {
+    display: flex;
+    top: 18px;
+    left: 0px;
+    width: 100%;
+    padding: 0;
+    position: inherit;
+  }
+
+  input {
+    display: none;
+  }
+
+  input:checked ~ .nav {
+    transform: translateX(0%) translateY(0%);
   }
 }
-
 /* header end */
 
 /* Hero start */
