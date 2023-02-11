@@ -1,241 +1,228 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/css/home.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="/css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300;400;600&family=Poppins&display=swap" rel="stylesheet" />
+    <title>Shuffle-project</title>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300;400;600&family=Poppins&display=swap"
-    rel="stylesheet">
-  <title>Shuffle-project</title>
-</head>
-
-<body>
-  <!-- Header start -->
-  <header>
-    <div class="logo">
-      <a href="#">Shuffle</a>
-    </div>
-    <div class="hamburger">&#9776;</div>
-    <div class="nav">
-      <div class="dropdown">
-        <a href="#">News</a>
-        <div class="submeniu">
+  <body>
+    <!-- Header start -->
+    <header>
+      <input type="checkbox" id="toggle" />
+      <div class="logo">
+        <a href="#">Shuffle</a>
+      </div>
+      <label class="hamburger" for="toggle">&#9776;</label>
+      <div class="nav">
+        <div class="dropdown">
           <a href="#">News</a>
-          <a href="#">In The Press</a>
+          <div class="submeniu">
+            <a href="#">News</a>
+            <a href="#">In The Press</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Discography</a>
+          <div class="submeniu">
+            <a href="#">Vinil</a>
+            <a href="#">CD</a>
+            <a href="#">Releases</a>
+            <a href="#">Songs &amp; Lyrics</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Tours</a>
+          <div class="submeniu">
+            <a href="#">Upcoming Dates</a>
+            <a href="#">Past Dates</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Media</a>
+          <div class="submeniu">
+            <a href="#">Videos</a>
+            <a href="#">Photos</a>
+            <a href="#">Podcasts</a>
+          </div>
+        </div>
+        <a href="#">Blog</a>
+        <div class="dropdown">
+          <a href="#">Shop</a>
+          <div class="submeniu">
+            <a href="#">New Arrivals</a>
+            <a href="#">Apparel</a>
+            <a href="#">Accessories</a>
+            <a href="#">Sale</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Fan Club</a>
+          <div class="submeniu">
+            <a href="#">News</a>
+            <a href="#">So What</a>
+            <a href="#">Contests</a>
+            <a href="#">Videos</a>
+            <a href="#">Photos</a>
+            <a href="#">Forums</a>
+            <a href="#">Local Chapters</a>
+          </div>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://vimeo.com/"><i class="fa-brands fa-vimeo-v"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
         </div>
       </div>
-      <div class="dropdown">
-        <a href="#">Discography</a>
-        <div class="submeniu">
-          <a href="#">Vinil</a>
-          <a href="#">CD</a>
-          <a href="#">Releases</a>
-          <a href="#">Songs &amp; Lyrics</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <a href="#">Tours</a>
-        <div class="submeniu">
-          <a href="#">Upcoming Dates</a>
-          <a href="#">Past Dates</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <a href="#">Media</a>
-        <div class="submeniu">
-          <a href="#">Videos</a>
-          <a href="#">Photos</a>
-          <a href="#">Podcasts</a>
-        </div>
-      </div>
-      <a href="#">Blog</a>
-      <div class="dropdown">
-        <a href="#">Shop</a>
-        <div class="submeniu">
-          <a href="#">New Arrivals</a>
-          <a href="#">Apparel</a>
-          <a href="#">Accessories</a>
-          <a href="#">Sale</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <a href="#">Fan Club</a>
-        <div class="submeniu">
-          <a href="#">News</a>
-          <a href="#">So What</a>
-          <a href="#">Contests</a>
-          <a href="#">Videos</a>
-          <a href="#">Photos</a>
-          <a href="#">Forums</a>
-          <a href="#">Local Chapters</a>
-        </div>
-      </div>
-      <div class="socials">
-        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://vimeo.com/"><i class="fa-brands fa-vimeo-v"></i></a>
-        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-      </div>
-    </div>
-  </header>
-  <!-- Header end -->
+    </header>
+    <!-- Header end -->
 
-  <!-- Hero start -->
-  <div class="container bg-black">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="small-title">Underground renaissance</h1>
-        <p class="paragraph-left">Lorem ipsum dolor sit amet, cu sea suavitate intellegam, civibus nominati ad usu.
-          Purto probatus vel inid mei
-        </p>
-        <div>
-          <div>Google play</div>
-          <div>iTunes</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Hero end -->
-
-  <!-- Video-section start -->
-  <div class="container">
-    <div class="row">
-      <div class="col-12">MUSIC PLAY SECTION</div>
-    </div>
-  </div>
-  <!-- Video-section end -->
-
-  <!-- New-album start -->
-  <div class="container bg-black">
-    <div class="row">
-      <div class="col-12">
-        <img src="#" alt="shuffle" />
-      </div>
-      <div class="col-8">
-        <h2 class="small-title title-30">New album "Shuffle" available now</h2>
-        <div>
-          <div>Google play</div>
-          <div>iTunes</div>
-        </div>
-        <div>MUSIC PLAYER</div>
-      </div>
-    </div>
-  </div>
-  <!-- New-album end -->
-
-  <!-- Dark-tour start -->
-  <div class="container bg-black">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="biggest-title">Dark world tour 2016</h3>
-        <p class="paragraph-left paragraph-center">Lorem ipsum dolor sit amet, cu sea suavitate intellegam, civibus
-          nominati ad usu. Purto probatus vel inid mei
-        </p>
-        <div>COMMING SOON</div>
-      </div>
-    </div>
-  </div>
-  <!-- Dark-tour end -->
-
-  <!-- Join-the-mailing start -->
-  <div class="container bg-black">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="biggest-title">Join the mailing list to keep up to date</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-6">
-        <input type="email" placeholder="Your email" />
-      </div>
-      <div class="col-6">
-        <button>Sign up</button>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <div>ITUNES</div>
-      <div>SOUNDCLOUD</div>
-      <div>GOOGLE PLAY</div>
-      <div>DEEZER</div>
-    </div>
-    <div class="col-12">
-      <div>AMAZONMUSIC</div>
-      <div>BANDCAMP</div>
-      <div>SPOTIFY</div>
-      <div>BANDSINTOWN</div>
-    </div>
-  </div>
-
-  <!-- Join-the-mailing end -->
-
-  <!-- Footer start -->
-  <div class="container bg-black">
-    <div class="row">
-      <div class="col-12 align-left">
-        <h4 class="ftr-title">Bookings</h4>
-        <p class="ftr-paragraph">Max Weatherall. Productions 562 Sycamore Circle Atlanta, GA 30342 T: +920364426</p>
-        <p class="ftr-paragraph">Email: shuffle@qodeinteractive.com www.shuffle-example.com</p>
-      </div>
-      <div class="col-12 align-left">
-        <h4 class="ftr-title">Latest posts</h4>
-        <img src="#" alt="IMG">
-        <div>
-          <h5 class="ftr-mini-title">Music heals</h5>
-          <p>Sep 28, 2016</p>
-        </div>
-
-        <img src="#" alt="IMG">
-        <div class="col-1">
-          <h5 class="ftr-mini-title">Good vibes</h5>
-          <p class="ftr-mini-subtitle">Sep 28, 2016</p>
-        </div>
-
-        <img src="#" alt="IMG">
-        <div class="col-1">
-          <h5 class="ftr-mini-title">Rebirth album</h5>
-          <p class="ftr-mini-subtitle">Sep 28, 2016</p>
-        </div>
-      </div>
-      <div class="col-12 align-left">
-        <h4 class="ftr-title">Record labels</h4>
-        <p class="ftr-paragraph">Max Weatherall. Productions 562 Sycamore Circle Atlanta, GA 30342 T: +920364426
-          www.maxproduction.com</p>
-        <div>SOCIALS</div>
-      </div>
-      <div class="col-12 align-left">
-        <h4 class="ftr-title">Twitter</h4>
-        <p>@RobWattCT Hey, please DM us so we can provide more details. Thanks! 2 years ago</p>
-        <p>Here comes La Comète! ☄️ https://t.co/ApIk6kk3Tt This stellar #WordPress theme is made for any type of
-          modern… https://t.co/h2ZWqjR78O 3 years ago</p>
-      </div>
-    </div>
-
-    <div class="container bg-dark-grey">
+    <!-- Hero start -->
+    <div class="container bg-black">
       <div class="row">
-        <p class="ftr-color-dark">© 2016 Qode Interactive, All Rights Reserved</p>
-        <p class="ftr-color-dark">Powered by WordPress</p>
+        <div class="col-12">
+          <h1 class="small-title">Underground renaissance</h1>
+          <p class="paragraph-left">Lorem ipsum dolor sit amet, cu sea suavitate intellegam, civibus nominati ad usu. Purto probatus vel inid mei</p>
+          <div>
+            <div>Google play</div>
+            <div>iTunes</div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Footer end -->
-  <script src="./js/main-home.js"></script>
-</body>
+    <!-- Hero end -->
 
+    <!-- Video-section start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">MUSIC PLAY SECTION</div>
+      </div>
+    </div>
+    <!-- Video-section end -->
+
+    <!-- New-album start -->
+    <div class="container bg-black">
+      <div class="row">
+        <div class="col-12">
+          <img src="#" alt="shuffle" />
+        </div>
+        <div class="col-8">
+          <h2 class="small-title title-30">New album "Shuffle" available now</h2>
+          <div>
+            <div>Google play</div>
+            <div>iTunes</div>
+          </div>
+          <div>MUSIC PLAYER</div>
+        </div>
+      </div>
+    </div>
+    <!-- New-album end -->
+
+    <!-- Dark-tour start -->
+    <div class="container bg-black">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="biggest-title">Dark world tour 2016</h3>
+          <p class="paragraph-left paragraph-center">Lorem ipsum dolor sit amet, cu sea suavitate intellegam, civibus nominati ad usu. Purto probatus vel inid mei</p>
+          <div>COMMING SOON</div>
+        </div>
+      </div>
+    </div>
+    <!-- Dark-tour end -->
+
+    <!-- Join-the-mailing start -->
+    <div class="container bg-black">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="biggest-title">Join the mailing list to keep up to date</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <input type="email" placeholder="Your email" />
+        </div>
+        <div class="col-6">
+          <button>Sign up</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div>ITUNES</div>
+        <div>SOUNDCLOUD</div>
+        <div>GOOGLE PLAY</div>
+        <div>DEEZER</div>
+      </div>
+      <div class="col-12">
+        <div>AMAZONMUSIC</div>
+        <div>BANDCAMP</div>
+        <div>SPOTIFY</div>
+        <div>BANDSINTOWN</div>
+      </div>
+    </div>
+
+    <!-- Join-the-mailing end -->
+
+    <!-- Footer start -->
+    <div class="container bg-black">
+      <div class="row">
+        <div class="col-12 align-left">
+          <h4 class="ftr-title">Bookings</h4>
+          <p class="ftr-paragraph">Max Weatherall. Productions 562 Sycamore Circle Atlanta, GA 30342 T: +920364426</p>
+          <p class="ftr-paragraph">Email: shuffle@qodeinteractive.com www.shuffle-example.com</p>
+        </div>
+        <div class="col-12 align-left">
+          <h4 class="ftr-title">Latest posts</h4>
+          <img src="#" alt="IMG" />
+          <div>
+            <h5 class="ftr-mini-title">Music heals</h5>
+            <p>Sep 28, 2016</p>
+          </div>
+
+          <img src="#" alt="IMG" />
+          <div class="col-1">
+            <h5 class="ftr-mini-title">Good vibes</h5>
+            <p class="ftr-mini-subtitle">Sep 28, 2016</p>
+          </div>
+
+          <img src="#" alt="IMG" />
+          <div class="col-1">
+            <h5 class="ftr-mini-title">Rebirth album</h5>
+            <p class="ftr-mini-subtitle">Sep 28, 2016</p>
+          </div>
+        </div>
+        <div class="col-12 align-left">
+          <h4 class="ftr-title">Record labels</h4>
+          <p class="ftr-paragraph">Max Weatherall. Productions 562 Sycamore Circle Atlanta, GA 30342 T: +920364426 www.maxproduction.com</p>
+          <div>SOCIALS</div>
+        </div>
+        <div class="col-12 align-left">
+          <h4 class="ftr-title">Twitter</h4>
+          <p>@RobWattCT Hey, please DM us so we can provide more details. Thanks! 2 years ago</p>
+          <p>Here comes La Comète! ☄️ https://t.co/ApIk6kk3Tt This stellar #WordPress theme is made for any type of modern… https://t.co/h2ZWqjR78O 3 years ago</p>
+        </div>
+      </div>
+
+      <div class="container bg-dark-grey">
+        <div class="row">
+          <p class="ftr-color-dark">© 2016 Qode Interactive, All Rights Reserved</p>
+          <p class="ftr-color-dark">Powered by WordPress</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer end -->
+    <script src="./js/main-home.js"></script>
+  </body>
 </html>
-
