@@ -1,6 +1,6 @@
 .btn {
   border: none;
-  border-right: 2px solid grey;
+  border-right: 1px solid grey;
   width: 40px;
   height: 96px;
   background-color: transparent;
@@ -40,8 +40,8 @@
   z-index: 1;
   opacity: 0;
   transition: all 0.3s;
-  border: 1px solid rgba(245, 245, 245, 0.9);
-  transform: scale(1.2, 1.2);
+  border: 1px solid rgba(50, 205, 50, 0.7);
+  transform: scale(1, 1);
 }
 
 .btn-player:hover::after {
