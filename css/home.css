@@ -4,7 +4,7 @@
 @import "../css/init/base.css";
 /* 3-rd-party */
 /* components */
-
+@import "../css/components/player.css";
 /* header start */
 header {
   display: flex;
@@ -193,9 +193,15 @@ header {
 /* Video-section end */
 
 /* New-album start */
-.title-30 {
-  font-size: 30px;
-  line-height: normal;
+.title-25 {
+  font-size: 23px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.container > .new-album > div > img {
+  width: 220px;
+  height: 220px;
 }
 /* New-album end */
 
@@ -209,7 +215,10 @@ header {
 /* Join-the-mailing end */
 
 /* Footer start */
-.align-left > h4, p, img, h5{
+.align-left > h4,
+p,
+img,
+h5 {
   text-align: left;
 }
 /* Footer end */

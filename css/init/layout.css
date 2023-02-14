@@ -33,7 +33,7 @@
 .container {
   float: left;
   width: 100%;
-  padding: 60px 15px;
+  padding: 40px 15px;
 }
 .container > .row {
   float: left;

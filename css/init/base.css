@@ -4,80 +4,84 @@
    */
 
 .bg-black {
-   background-color: #000;
+  background-color: #000;
 }
 
 .bg-dark-grey {
-   background-color: #1c1c1c;
+  background-color: #1c1c1c;
+}
+
+.new-album-bg {
+  background-image: url(../../img/photo-1541690212779-7a48c04096cb.avif);
+  background-size: cover;
+  background-position: center;
 }
 
 .ftr-color-light {
-   color: #c3c3c3;
+  color: #c3c3c3;
 }
 
 .ftr-color-dark {
-   color: #626262;
-   font-family: 'Poppins', sans-serif;
-   font-size: 14px;
-   padding: 0 25px;
+  color: #626262;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 0 25px;
 }
 
 .small-title {
-   color: #fff;
-   text-transform: uppercase;
-   font-size: 46px;
-   font-family: 'Oswald';
-   font-weight: 600;
-   line-height: 55px;
-   text-align: left;
-   padding: 20px 20px 0 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 46px;
+  font-family: "Oswald";
+  font-weight: 600;
+  line-height: 55px;
+  text-align: left;
+  margin: 30px 0 0 5px;
 }
 
 .paragraph-left {
-   color: #fff;
-   margin-top: 20px;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 22px;
-   font-weight: 400;
-   text-align: left;
-   padding: 0 20px 0 20px;
+  color: #fff;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 20px 0 20px;
 }
 
 .biggest-title {
-   font-family: "Oswald";
-   font-size: 60px;
-   color: #fff;
-   font-weight: 400;
-   text-transform: uppercase;
+  font-family: "Oswald";
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .ftr-title {
-   font-family: 'Oswald', sans-serif;
-   color: #fff;
-   font-size: 25px;
-   font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .ftr-paragraph {
-   font-family: 'Open Sans', sans-serif;
-   color: #d2d2d2;
-   margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #d2d2d2;
+  margin-top: 10px;
 }
 
 .ftr-mini-title {
-   font-family: 'Oswald', sans-serif;
-   color: #c3c3c3;
-   text-transform: uppercase;
-   font-size: 18px;
-   font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: #c3c3c3;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .ftr-mini-subtitle {
-   font-family: 'Poppins', sans-serif;
-   font-size: 12px;
-   color: #626262;
-   font-weight: 600;
-   margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #626262;
+  font-weight: 600;
+  margin-top: 5px;
 }
-
-
