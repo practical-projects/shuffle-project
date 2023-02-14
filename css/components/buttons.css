@@ -1,0 +1,50 @@
+.btn {
+  border: none;
+  border-right: 2px solid grey;
+  width: 40px;
+  height: 96px;
+  background-color: transparent;
+  color: aliceblue;
+  float: left;
+}
+
+.btn-player {
+  transition: all 0.5s;
+  position: relative;
+}
+
+.btn-player::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-player:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.btn-player::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(245, 245, 245, 0.9);
+  transform: scale(1.2, 1.2);
+}
+
+.btn-player:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}

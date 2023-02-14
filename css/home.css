@@ -3,7 +3,9 @@
 @import "../css/init/layout.css";
 @import "../css/init/base.css";
 /* 3-rd-party */
+
 /* components */
+@import "../css/components/buttons.css";
 @import "../css/components/player.css";
 /* header start */
 header {
