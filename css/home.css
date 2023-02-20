@@ -4,7 +4,7 @@
 @import "../css/init/base.css";
 /* 3-rd-party */
 /* components */
-
+@import "../css/components/hero.css";
 /* header start */
 header {
   display: flex;
@@ -209,7 +209,10 @@ header {
 /* Join-the-mailing end */
 
 /* Footer start */
-.align-left > h4, p, img, h5{
+.align-left > h4,
+p,
+img,
+h5 {
   text-align: left;
 }
 /* Footer end */
