@@ -23,25 +23,43 @@
 }
 
 .small-title {
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
-  font-size: 46px;
+  font-size: 5em;
   font-family: "Oswald";
   font-weight: 600;
-  line-height: 55px;
+  line-height: 1.5em;
   /* text-align: left; */
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 0 0;
+  width: 40%;
 }
 
 .paragraph-left {
-  color: #fff;
+  color: #ffffff;
   width: 50%;
-  margin-top: 20px;
+  margin-top: 8em;
   font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.8em;
   font-weight: 400;
   /* text-align: left; */
-  /* padding: 0 20px 0 20px; */
+  padding: 0 20px 0 20px;
+}
+
+@media (max-width: 576px) {
+  .small-title {
+    font-size: 3em;
+  }
+  .paragraph-left {
+    width: 100%;
+    margin: 5em 0 2em 0;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .paragraph-left {
+    width: 100%;
+  }
 }
 
 .biggest-title {
