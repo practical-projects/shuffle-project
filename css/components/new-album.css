@@ -1,0 +1,65 @@
+.new-album > img {
+  width: 300px;
+  height: 300px;
+}
+
+.title-30 {
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  .title-30 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .new-album > img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (min-width: 576px) {
+  .title-30 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .new-album > img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-30 {
+    font-size: 48px;
+    line-height: 65px;
+  }
+  .new-album > img {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  .title-30 {
+    font-size: 55px;
+    line-height: 75px;
+  }
+  .new-album > img {
+    width: 650px;
+    height: 650px;
+  }
+}
+
+@media (min-width: 992px) {
+  .title-30 {
+    font-size: 55px;
+    line-height: 75px;
+  }
+  .new-album > img {
+    width: 650px;
+    height: 650px;
+  }
+}

@@ -6,8 +6,10 @@
 
 /* components */
 @import "../css/components/buttons.css";
+@import "../css/components/new-album.css";
 @import "../css/components/player.css";
 /* header start */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -182,7 +184,7 @@ header {
     display: none;
   }
 
-  input:checked ~ .nav {
+  input:checked > .nav {
     transform: translateX(0%) translateY(0%);
   }
 }
@@ -195,16 +197,7 @@ header {
 /* Video-section end */
 
 /* New-album start */
-.title-25 {
-  font-size: 23px;
-  line-height: 28px;
-  font-weight: bold;
-}
 
-.container > .new-album > div > img {
-  width: 220px;
-  height: 220px;
-}
 /* New-album end */
 
 /* Dark-tour start */

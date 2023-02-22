@@ -6,6 +6,7 @@
   background-color: transparent;
   color: aliceblue;
   float: left;
+  padding-top: 10px;
 }
 
 .btn-player {
@@ -40,11 +41,23 @@
   z-index: 1;
   opacity: 0;
   transition: all 0.3s;
-  border: 1px solid rgba(50, 205, 50, 0.7);
+  border: 1px solid rgba(246, 148, 81, 0.6);
   transform: scale(1, 1);
 }
 
 .btn-player:hover::after {
   opacity: 1;
   transform: scale(1, 1);
+}
+
+@media (min-width: 768px) {
+  .btn {
+    width: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    width: 80px;
+  }
 }
