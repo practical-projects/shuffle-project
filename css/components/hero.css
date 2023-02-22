@@ -1,10 +1,10 @@
 .hero {
   border-top: 3px solid #fff;
-  height: 100vh;
+  height: 110vh;
   background-image: url(../../img/lenny.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
 }
 

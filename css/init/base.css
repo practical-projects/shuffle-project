@@ -25,7 +25,7 @@
 .small-title {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 5em;
+  font-size: 3.5em;
   font-family: "Oswald";
   font-weight: 600;
   line-height: 1.5em;
@@ -36,29 +36,67 @@
 
 .paragraph-left {
   color: #ffffff;
-  width: 50%;
-  margin-top: 8em;
+  width: 70%;
+  /* margin-top: 8em; */
   font-family: "Open Sans", sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   /* text-align: left; */
-  padding: 0 20px 0 20px;
+  /* padding: 5em 0 5em 0; */
 }
 
 @media (max-width: 576px) {
   .small-title {
-    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    font-size: 2.1em;
+    padding: 200px 20px 0 20px;
   }
   .paragraph-left {
     width: 100%;
-    margin: 5em 0 2em 0;
+    margin: 4em 0 1em 0;
     font-size: 1.5em;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .small-title {
+    font-size: 2.5em;
+  }
+
   .paragraph-left {
-    width: 100%;
+    width: 80%;
+    padding: 7em 0 6em 0;
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 992px) {
+  .small-title {
+    font-size: 3.5em;
+  }
+  .paragraph-left {
+    width: 50%;
+    padding: 10em 0 3em 0;
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .small-title {
+    font-size: 5em;
+  }
+
+  .paragraph-left {
+    width: 50%;
+    padding: 3em 0 6em 0;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .small-title {
+    font-size: 4em;
   }
 }
 
