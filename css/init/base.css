@@ -45,7 +45,21 @@
   /* padding: 5em 0 5em 0; */
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
+  .small-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2.1em;
+    padding: 200px 20px 0 20px;
+  }
+  .paragraph-left {
+    width: 100%;
+    margin: 4em 0 1em 0;
+    font-size: 1.5em;
+  }
+} */
+
+@media (max-width: 767px) {
   .small-title {
     width: 100%;
     text-align: center;
@@ -61,19 +75,19 @@
 
 @media (min-width: 768px) {
   .small-title {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
 
   .paragraph-left {
     width: 80%;
-    padding: 7em 0 6em 0;
+    padding: 14em 0 6em 0;
     font-size: 1.8em;
   }
 }
 
 @media (min-width: 992px) {
   .small-title {
-    font-size: 3.5em;
+    font-size: 4.5em;
   }
   .paragraph-left {
     width: 50%;
@@ -84,19 +98,19 @@
 
 @media (min-width: 1200px) {
   .small-title {
-    font-size: 5em;
+    font-size: 5.5em;
   }
 
   .paragraph-left {
     width: 50%;
-    padding: 3em 0 6em 0;
+    padding: 15em 0 6em 0;
     font-size: 2em;
   }
 }
 
 @media (min-width: 1400px) {
   .small-title {
-    font-size: 4em;
+    font-size: 6.5em;
   }
 }
 
