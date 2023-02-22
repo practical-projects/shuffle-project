@@ -9,6 +9,15 @@
   font-weight: bold;
 }
 
+.socials-icon > img {
+  margin-top: 40px;
+}
+
+/* .socials-icon > img:nth-child(2) {
+  margin-left: 30px;
+} */
+
+/* media */
 @media (min-width: 500px) {
   .title-30 {
     font-size: 40px;
@@ -28,6 +37,9 @@
   .new-album > img {
     width: 450px;
     height: 450px;
+  }
+  .socials-icon > img:nth-child(2) {
+    margin-left: 20px;
   }
 }
 
