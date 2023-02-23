@@ -53,6 +53,12 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 576px) {
+  .biggest-title {
+    font-size: 2em;
+  }
+}
+
 .ftr-title {
   font-family: "Oswald", sans-serif;
   color: #fff;
