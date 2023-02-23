@@ -1,0 +1,14 @@
+.dark {
+  height: 100vh;
+  background-image: url("../../img/darktour.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clock {
+  padding: 0.5em 0 0 0;
+  text-align: center;
+  font-size: 8em;
+  color: #fff;
+}
