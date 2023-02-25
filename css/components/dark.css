@@ -1,5 +1,5 @@
 .dark {
-  height: 100vh;
+  height: 110vh;
   background-image: url("../../img/darktour.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
 .clock {
   display: inline-block;
   width: 100%;
-  margin: 10em 0 0 0;
+  margin: 8em 0 0 0;
 }
 
 .time {
@@ -31,6 +31,10 @@
 }
 
 @media (max-width: 576px) {
+  .clock {
+    margin: 7em 0 0 0;
+  }
+
   .time > .value {
     font-size: 2em;
   }
