@@ -13,10 +13,6 @@
   margin-top: 40px;
 }
 
-/* .socials-icon > img:nth-child(2) {
-  margin-left: 30px;
-} */
-
 /* media */
 @media (min-width: 500px) {
   .title-30 {
@@ -60,18 +56,28 @@
     line-height: 75px;
   }
   .new-album > img {
-    width: 650px;
-    height: 650px;
+    width: 450px;
+    height: 450px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
+  .title-30 {
+    font-size: 48px;
+    line-height: 65px;
+  }
+  .new-album > img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (min-width: 1400px) {
   .title-30 {
     font-size: 55px;
     line-height: 75px;
   }
   .new-album > img {
-    width: 650px;
-    height: 650px;
+    width: 500px;
+    height: 500px;
   }
 }

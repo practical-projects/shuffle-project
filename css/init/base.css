@@ -15,6 +15,7 @@
   background-image: url(../../img/wp2910967.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .ftr-color-light {
