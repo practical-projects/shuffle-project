@@ -10,7 +10,12 @@
 .bg-dark-grey {
   background-color: #1c1c1c;
 }
-
+.new-album-bg {
+  background-image: url(../../img/wp2910967.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 .ftr-color-light {
   color: #c3c3c3;
 }
@@ -56,13 +61,22 @@
     padding: 0 2em;
   }
 }
-
 .biggest-title {
-  font-family: "Oswald";
-  font-size: 60px;
+  font-size: 5em;
   color: #fff;
   font-weight: 400;
   text-transform: uppercase;
+  padding: 0.5em 0 1.5em 0;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .biggest-title {
+    font-size: 2em;
+  }
+   .paragraph-center {
+    font-size: 1.2em;
+  }
 }
 
 .ftr-title {
