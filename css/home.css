@@ -4,7 +4,7 @@
 @import "../css/init/base.css";
 /* 3-rd-party */
 /* components */
-@import "../css/components/mailing-section.css";
+@import "../css/components/mailing.css";
 /* header start */
 header {
   display: flex;
