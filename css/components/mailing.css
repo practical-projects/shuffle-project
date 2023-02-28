@@ -9,7 +9,7 @@
 
 .email {
   display: flex;
-  margin: 20em 0 0 0;
+  margin: 5em 0 0 0;
   padding: 0 9em;
 }
 
@@ -33,25 +33,54 @@
   text-align: center;
 }
 
-.downLogo {
-  margin: 3em 0 0 0;
-}
-
 .twoLogos {
   display: block;
   width: 25%;
 }
 
+.upLogo img {
+  width: 150px;
+  height: 50px;
+}
+
+.downLogo img {
+  width: 150px;
+  height: 50px;
+}
+
+.downLogo {
+  margin: 3em 0 0 0;
+}
+
 @media (max-width: 576px) {
   .biggest-title {
-    font-size: 2em;
+    font-size: 1.5em;
   }
-  .email {
-    margin: 10em 0 0 0;
+  .col-12 > .email {
+    margin: 3em 0 0 0;
+  }
+
+  .logos {
+    display: block;
+    margin: 5em 0 0 0;
+  }
+
+  .twoLogos {
+    width: auto;
+  }
+
+  .downLogo {
+    margin: 0 0 0 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .biggest-title {
+    font-size: 3em;
+  }
+  .email {
+    margin: 15em 0 0 0;
+  }
 }
 
 @media (max-width: 992px) {
