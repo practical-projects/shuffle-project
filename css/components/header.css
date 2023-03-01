@@ -100,13 +100,13 @@ header {
 
 /* responsive header */
 @media (min-width: 867px) {
-  /* .hamburger {
-    display: none;
-  } */
-
-  .hidden {
+  .hamburger {
     display: none;
   }
+
+  /* .hidden {
+    display: none;
+  } */
 
   input {
     display: none;
