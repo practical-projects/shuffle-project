@@ -11,6 +11,7 @@
   display: flex;
   margin: 10em 0 0 0;
   padding: 0 9em;
+  justify-content: center;
 }
 
 .email input {
@@ -30,12 +31,13 @@
 .logos {
   display: flex;
   margin: 20em 0 0 0;
-  text-align: center;
+  justify-content: center;
 }
 
 .twoLogos {
   display: block;
-  width: 25%;
+  /* width: 25%; */
+  text-align: center;
 }
 
 .downLogo {
