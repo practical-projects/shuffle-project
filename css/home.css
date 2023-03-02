@@ -4,11 +4,12 @@
 @import "../css/init/base.css";
 /* 3-rd-party */
 /* components */
+
+@import "../css/components/hero.css";
 @import "../css/components/buttons.css";
 @import "../css/components/new-album.css";
 @import "../css/components/player.css";
 @import "../css/components/dark.css";
-
 /* header start */
 
 header {
