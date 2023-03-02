@@ -4,80 +4,133 @@
    */
 
 .bg-black {
-   background-color: #000;
+  background-color: #000;
 }
 
 .bg-dark-grey {
-   background-color: #1c1c1c;
+  background-color: #1c1c1c;
 }
-
+.new-album-bg {
+  background-image: url(../../img/wp2910967.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 .ftr-color-light {
-   color: #c3c3c3;
+  color: #c3c3c3;
 }
 
 .ftr-color-dark {
-   color: #626262;
-   font-family: 'Poppins', sans-serif;
-   font-size: 14px;
-   padding: 0 25px;
+  color: #626262;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 0 25px;
 }
 
 .small-title {
-   color: #fff;
-   text-transform: uppercase;
-   font-size: 46px;
-   font-family: 'Oswald';
-   font-weight: 600;
-   line-height: 55px;
-   text-align: left;
-   padding: 20px 20px 0 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 4.5em;
+  font-family: "Oswald";
+  font-weight: 600;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 2em 0 3em 0;
 }
 
 .paragraph-left {
-   color: #fff;
-   margin-top: 20px;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 22px;
-   font-weight: 400;
-   text-align: left;
-   padding: 0 20px 0 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 5em;
+}
+
+.paragraph-center {
+  font-size: 2.5em;
+}
+/* perziureti, kaip bus sukeltos visos sekcijos */
+.biggest-title1 {
+  padding: 0.5em 0 1.5em 0;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 5em;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .biggest-title {
-   font-family: "Oswald";
-   font-size: 60px;
-   color: #fff;
-   font-weight: 400;
-   text-transform: uppercase;
+  padding: 0.5em 0 1.5em 0;
+.bar {
+  padding: 5em 0 0 0;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .small-title {
+    font-size: 2.1em;
+  }
+  .paragraph-left {
+    font-size: 1.1em;
+    padding: 0 2em;
+  }
+}
+.biggest-title {
+  font-size: 5em;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0.5em 0 1.5em 0;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .col-12 > .biggest-title1 {
+    font-size: 2em;
+  }
+  .col-12 > .paragraph-center {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 992px) {
+  .biggest-title1 {
+    font-size: 3.5em;
+  }
+
+  .paragraph-center {
+    font-size: 2em;
+  }
 }
 
 .ftr-title {
-   font-family: 'Oswald', sans-serif;
-   color: #fff;
-   font-size: 25px;
-   font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .ftr-paragraph {
-   font-family: 'Open Sans', sans-serif;
-   color: #d2d2d2;
-   margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #d2d2d2;
+  margin-top: 10px;
 }
 
 .ftr-mini-title {
-   font-family: 'Oswald', sans-serif;
-   color: #c3c3c3;
-   text-transform: uppercase;
-   font-size: 18px;
-   font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: #c3c3c3;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .ftr-mini-subtitle {
-   font-family: 'Poppins', sans-serif;
-   font-size: 12px;
-   color: #626262;
-   font-weight: 600;
-   margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #626262;
+  font-weight: 600;
+  margin-top: 5px;
 }
-
-
