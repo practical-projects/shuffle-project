@@ -1,0 +1,27 @@
+.hero {
+  border-top: 3px solid #fff;
+  height: 110vh;
+  background-image: url(../../img/concert.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* @media (min-width: 576px) {
+  .hero {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    height: 80vh;
+  }
+} */
