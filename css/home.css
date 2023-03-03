@@ -5,9 +5,8 @@
 
 /* 3-rd-party */
 /* components */
+@import "../css/components/mailing.css";
 @import "../css/components/header.css";
-/* header start */
-
 @import "../css/components/hero.css";
 @import "../css/components/buttons.css";
 @import "../css/components/new-album.css";
