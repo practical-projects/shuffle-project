@@ -7,13 +7,17 @@ header {
 }
 
 .logo {
-  padding: 15px 20px 15px 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo > a {
   font-size: 32px;
   text-decoration: none;
   color: #fff;
+  padding: 15px 20px 15px 20px;
 }
 
 .nav {
@@ -129,7 +133,7 @@ header {
 
   .hamburger {
     font-size: 30px;
-    text-align: center;
+
     cursor: pointer;
     color: #000;
   }
