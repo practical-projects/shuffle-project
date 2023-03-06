@@ -1,0 +1,12 @@
+.lefooter {
+  display: flex;
+}
+
+.align-footer-left {
+  width: 25%;
+}
+
+.align-footer-left img {
+  width: 70px;
+  height: 51px;
+}
