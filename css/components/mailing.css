@@ -30,8 +30,13 @@
 
 .logos {
   display: flex;
+  flex-direction: row;
   margin: 20em 0 0 0;
   justify-content: center;
+}
+
+.logo-wrap {
+  display: flex;
 }
 
 .twoLogos {
