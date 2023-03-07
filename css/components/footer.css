@@ -28,3 +28,13 @@ span:hover {
   color: #fff;
   cursor: pointer;
 }
+
+@media (max-width: 992px) {
+  .lefooter {
+    flex-direction: column;
+  }
+
+  .align-footer-left {
+    width: auto;
+  }
+}
