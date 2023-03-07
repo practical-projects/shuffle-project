@@ -148,9 +148,14 @@
 .ftr-mini-title {
   font-family: "Oswald", sans-serif;
   color: #c3c3c3;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.ftr-mini-title:hover {
+  color: #fff;
 }
 
 .ftr-mini-subtitle {

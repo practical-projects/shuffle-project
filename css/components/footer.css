@@ -10,3 +10,21 @@
   width: 70px;
   height: 51px;
 }
+
+.footer-img-container {
+  display: flex;
+  margin: 15px 0 0 0;
+}
+
+.footer-img-container img {
+  cursor: pointer;
+}
+
+.ftr-description {
+  margin: 0 0 0 20px;
+}
+
+span:hover {
+  color: #fff;
+  cursor: pointer;
+}
