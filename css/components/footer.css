@@ -29,6 +29,11 @@ span:hover {
   cursor: pointer;
 }
 
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 992px) {
   .lefooter {
     flex-direction: column;
