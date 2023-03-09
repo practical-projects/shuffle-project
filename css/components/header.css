@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 header {
   display: flex;
   justify-content: space-between;
@@ -104,18 +105,32 @@ header {
 
 /* responsive header */
 @media (min-width: 867px) {
+=======
+/* responsive header */
+/* @media (min-width: 867px) {
+>>>>>>> Stashed changes
   .hamburger {
     display: none;
   }
 
+<<<<<<< Updated upstream
   /* .hidden {
     display: none;
   } */
+=======
+  .hidden {
+    display: none;
+  }
+>>>>>>> Stashed changes
 
   input {
     display: none;
   }
+<<<<<<< Updated upstream
 }
+=======
+} */
+>>>>>>> Stashed changes
 
 @media (max-width: 867px) {
   header {
@@ -202,7 +217,7 @@ header {
   }
 
   input {
-    display: none;
+    display: block;
   }
 
   input:checked ~ .nav {
