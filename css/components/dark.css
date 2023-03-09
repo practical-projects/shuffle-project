@@ -1,0 +1,53 @@
+.dark {
+  height: 110vh;
+  background-image: url("../../img/darktour.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clock {
+  display: inline-block;
+  width: 100%;
+  /* margin: 8em 0 0 0; */
+  margin: 1em 0 0 0;
+}
+
+.time {
+  width: 20%;
+  float: left;
+  text-align: center;
+  color: #fff;
+}
+
+.time > .value {
+  display: inline-block;
+  width: 100%;
+  font-size: 5em;
+  border-right: 1px solid #ffffff;
+}
+
+.time > .title {
+  font-size: 2em;
+}
+
+@media (max-width: 576px) {
+  .clock {
+    /* margin: 7em 0 0 0; */
+    margin: 2em 0 0 0;
+  }
+
+  .time > .value {
+    font-size: 2em;
+  }
+
+  .time > .title {
+    font-size: 0.8em;
+  }
+}
+/* Simonos media */
+@media (max-width: 768px) {
+  .clock {
+    margin: 4em 0 0 0;
+  }
+}

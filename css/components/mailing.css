@@ -1,0 +1,101 @@
+.mailing {
+  height: 110vh;
+  background-image: url("../../img/mailingpic.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.email {
+  display: flex;
+  margin: 10em 0 0 0;
+  padding: 0 9em;
+  justify-content: center;
+}
+
+.email input {
+  display: block;
+  width: 80%;
+  height: 50px;
+  margin: 0 10px 0 0;
+  border: 3px solid #000000;
+}
+
+.email > button {
+  width: 100px;
+  border: 3px solid #000000;
+  text-transform: uppercase;
+}
+
+.logos {
+  display: flex;
+  margin: 20em 0 0 0;
+  justify-content: center;
+}
+
+.twoLogos {
+  display: block;
+  /* width: 25%; */
+  text-align: center;
+}
+
+.downLogo {
+  margin: 3em 0 0 0;
+}
+
+@media (max-width: 576px) {
+  .col-12 > .biggest-title {
+    font-size: 1.5em;
+  }
+
+  .col-12 > .email {
+    margin: 0 0 0 0;
+  }
+
+  .col-12 > .logos {
+    margin: 2em 0 0 0;
+  }
+
+  .twoLogos > .downLogo {
+    margin: 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .biggest-title {
+    font-size: 3em;
+  }
+  .email {
+    margin: 15em 0 0 0;
+  }
+
+  .email {
+    margin: 3em 0 0 0;
+  }
+
+  .logos {
+    display: block;
+    margin: 5em 0 0 0;
+  }
+
+  .twoLogos {
+    width: auto;
+  }
+
+  .downLogo {
+    margin: 2em 0;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+  .email {
+    padding: 0 0;
+  }
+}
+
+@media (min-width: 1400px) {
+}
