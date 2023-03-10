@@ -132,40 +132,29 @@
         </div>
         <div class="row">
           <div class="player-container">
-            <button class="btn btn-player">
+            <button onclick="playPause()" class="btn btn-player">
               <i class="fa-solid fa-backward-fast"></i>
             </button>
             <button class="btn btn-player">
-              <i class="fa-solid fa-play"></i>
+              <i class="fa-solid fa-play" id="play-icon"></i>
             </button>
             <button class="btn btn-player">
               <i class="fa-solid fa-forward-fast"></i>
             </button>
             <div class="player-text">
-              <p>Song Name</p>
+              <p>Eminem - Without Me</p>
               <p>Song Time</p>
+              <audio controls id="song">
+                <source src="./img/music/Eminem - Without Me (Official Music Video).mp3" type="audio/mpeg">
+              </audio>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div class="container bg-black">
-      <div class="row">
-        <div class="col-12">
-          <img src="#" alt="shuffle" />
-        </div>
-        <div class="col-8">
-          <h2 class="small-title title-30">New album "Shuffle" available now</h2>
-          <div>
-            <div>Google play</div>
-            <div>iTunes</div>
-          </div>
-          <div>MUSIC PLAYER</div>
-        </div>
-      </div>
-    </div> -->
   <!-- New-album end -->
+
   <!-- Video-section start -->
   <!-- <div class="container">
       <div class="row">
