@@ -1,0 +1,45 @@
+.lefooter {
+  display: flex;
+}
+
+.align-footer-left {
+  width: 25%;
+}
+
+.align-footer-left img {
+  width: 70px;
+  height: 51px;
+}
+
+.footer-img-container {
+  display: flex;
+  margin: 15px 0 0 0;
+}
+
+.footer-img-container img {
+  cursor: pointer;
+}
+
+.ftr-description {
+  margin: 0 0 0 20px;
+}
+
+span:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .lefooter {
+    flex-direction: column;
+  }
+
+  .align-footer-left {
+    width: auto;
+  }
+}

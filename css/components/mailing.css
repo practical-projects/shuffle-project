@@ -30,8 +30,13 @@
 
 .logos {
   display: flex;
+  flex-direction: row;
   margin: 20em 0 0 0;
   justify-content: center;
+}
+
+.logo-wrap {
+  display: flex;
 }
 
 .twoLogos {
@@ -79,6 +84,10 @@
     margin: 5em 0 0 0;
   }
 
+  .logos > .logo-wrap {
+    flex-direction: row;
+  }
+
   .twoLogos {
     width: auto;
   }
@@ -89,6 +98,16 @@
 }
 
 @media (max-width: 992px) {
+  .logos {
+    margin: 3em 0 0 0;
+  }
+  .logo-wrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .twoLogos {
+    margin: 2em 0 0 0;
+  }
 }
 
 @media (max-width: 1200px) {
