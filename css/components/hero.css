@@ -1,11 +1,16 @@
 .hero {
   border-top: 3px solid #fff;
-  height: 110vh;
+  height: 600px;
   background-image: url(../../img/concert.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.text-element-group {
+  margin-top: 80px;
+  color: #fff;
 }
 
 /* @media (min-width: 576px) {
