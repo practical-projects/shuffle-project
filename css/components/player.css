@@ -19,6 +19,11 @@
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
+.player-container button {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
 
 .player-text > p {
   margin: 0 0 5px 25px;

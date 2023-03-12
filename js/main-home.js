@@ -3,7 +3,7 @@ const audio = document.getElementById('audio');
 const playPauseBtn = document.getElementById('playPause');
 let count = 0;
 
-function playPause() {
+playPauseBtn.addEventListener('click', () => {
    if (count == 0) {
       count = 1;
       audio.play();
@@ -13,7 +13,7 @@ function playPause() {
       audio.pause();
       playPauseBtn.innerHTML = "&#9658;";
    }
-}
+})
 
 // new-album end
 
