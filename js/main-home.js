@@ -12,12 +12,12 @@ playPauseBtn.addEventListener('click', () => {
    if (count == 0) {
       count = 1;
       audio.play();
-      playPauseBtn.innerHTML = "&#9208;";
+      playPauseBtn.innerHTML = '<i class="fa-solid fa-play"></i>'
       songName.innerHTML = "Ran-D & Endymion ft. LePrince - Run From Reality";
    } else {
       count = 0;
       audio.pause();
-      playPauseBtn.innerHTML = "&#9658;";
+      playPauseBtn.innerHTML = "<i class='fa-solid fa-pause'></i>";
    }
 })
 
