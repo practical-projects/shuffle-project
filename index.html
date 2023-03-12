@@ -134,15 +134,17 @@
 
           <div class="player-container">
             <audio id="audio">
-              <source src="./img/audio/2Kvėpavimas - Man viskas Kanarai.mp3" type="audio/mpeg">
+              <source
+                src="./img/audio/Ran-D & Endymion ft. LePrince - Run From Reality (Official Lyric Video - Qlimax 2019).mp3"
+                type="audio/mpeg">
             </audio>
 
-            <button class="btn btn-player">&#171;</button>
+            <button class="btn btn-player" id="prevSong">&#171;</button>
             <button class="btn btn-player" id="playPause">&#9658;</button>
-            <button class="btn btn-player">&#187;</button>
+            <button class="btn btn-player" id="nextSong">&#187;</button>
 
             <div class="player-text">
-              <p>Song Name</p>
+              <p id="songName">Song Name</p>
               <p>Song Time</p>
             </div>
           </div>
@@ -506,7 +508,7 @@
       </div>
     </div> -->
   <!-- Footer end -->
-  <script src="./js/main-home.js"></script>
+  <script src="./js/main-home.js" type="module"></script>
 </body>
 
 
