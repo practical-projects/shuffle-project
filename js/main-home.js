@@ -3,4 +3,4 @@ import { playPause } from "./components/player.js";
 
 playPause();
 
-clock();
+new clock("#clock");
