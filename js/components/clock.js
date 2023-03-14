@@ -2,11 +2,19 @@ class clock {
   constructor(selector) {
     this.selector = selector;
     this.DOM = null;
+    this.init();
   }
 
-  Infinity() {
-    if (this.isValidSelector()) {
+  init() {
+    if (!this.isValidSelector()) {
       return false;
+    }
+    this.DOM = document.querySelector(this.selector);
+  }
+
+  isValidSelector() {
+    if (typeof this.selector !== "string" || this.selector === "") {
+      console.error("Error: selector has to ");
     }
   }
 
