@@ -1,6 +1,7 @@
 class clock {
-  constructor(selector) {
+  constructor(selector, targetDate) {
     this.selector = selector;
+    this.targetDate = targetDate;
     this.DOM = null;
     this.init();
   }
@@ -25,8 +26,21 @@ class clock {
     return true;
   }
 
+  formatTime(timeValues) {
+    const updateTime = [];
+    for (let i = 0; i < timeValues.length; i++) {
+      const time = timeValues[i];
+      if (i === 0 || time > 9) {
+        updateTime.push(time);
+      } else {
+        updateTime.push("0" + time);
+      }
+    }
+    return updateTime;
+  }
+
   render() {
-    const timeValues = [6, 50, 9, 49, 20];
+    const timeValues = this.formatTime([6, 50, 9, 49, 20]);
     const titleValues = ["Months", "Days", "Hours", "Minutes", "Seconds"];
     let HTML = "";
 
