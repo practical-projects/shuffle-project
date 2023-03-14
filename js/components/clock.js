@@ -9,13 +9,20 @@ class clock {
     if (!this.isValidSelector()) {
       return false;
     }
-    this.DOM = document.querySelector(this.selector);
+    this.render();
   }
 
   isValidSelector() {
     if (typeof this.selector !== "string" || this.selector === "") {
-      console.error("Error: selector has to ");
+      console.error("Error: selector has to be non-empty string");
+      return false;
     }
+    this.DOM = document.querySelector(this.selector);
+    if (!this.DOM) {
+      console.error("could not find element");
+      return false;
+    }
+    return true;
   }
 
   render() {
@@ -29,6 +36,7 @@ class clock {
            <div class="title">${titleValues[i]}</div>
          </div>`;
     }
+    this.DOM.innerHTML = HTML;
   }
 }
 // function clock(selector) {
