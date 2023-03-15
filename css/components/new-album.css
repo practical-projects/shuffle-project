@@ -4,7 +4,7 @@
 }
 
 .title-30 {
-  font-size: 32px;
+  font-size: 30px;
   line-height: 50px;
   font-weight: bold;
 }
@@ -33,7 +33,7 @@
 /* media */
 @media (min-width: 500px) {
   .title-30 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 55px;
   }
   .new-album > img {
@@ -44,7 +44,7 @@
 
 @media (min-width: 576px) {
   .title-30 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 55px;
   }
   .new-album > img {
