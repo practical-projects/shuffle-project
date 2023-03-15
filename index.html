@@ -127,7 +127,7 @@
   <div class="container new-album-bg">
     <div class="row">
       <div class="new-album col-12 col-lg-7 col-xl-6">
-        <img src="./img/home-2-album-image.png" alt="new-album" />
+        <img src="./img/ran-d.jpg" alt="new-album" />
       </div>
       <div class="col-9 col-sm-8 col-lg-6 col-xl-5">
         <div class="row small-title title-30">
@@ -137,23 +137,30 @@
           <img src="./img/main-home-google-play-logo.png" alt="google" />
           <img src="./img/itunes.png" alt="itunes" />
         </div>
+
         <div class="row">
-          <div class="player-container">
-            <button onclick="playPause()" class="btn btn-player">
-              <i class="fa-solid fa-backward-fast"></i>
-            </button>
-            <button class="btn btn-player">
-              <i class="fa-solid fa-play" id="play-icon"></i>
-            </button>
-            <button class="btn btn-player">
-              <i class="fa-solid fa-forward-fast"></i>
-            </button>
-            <div class="player-text">
-              <p>Eminem - Without Me</p>
-              <p>Song Time</p>
-              <audio controls id="song">
-                <source src="./img/music/Eminem - Without Me (Official Music Video).mp3" type="audio/mpeg">
-              </audio>
+          <div class="music-container" id="music-container">
+            <audio src="./img/music/2Kvėpavimas - Man viskas Kanarai.mp3" type="audio/mpeg" id="audio"></audio>
+
+            <div class="navigation">
+              <button class="btn btn-player" id="prev">
+                <i class="fa-solid fa-backward-fast"></i>
+              </button>
+
+              <button class="btn btn-player" id="play">
+                <i class="fa-solid fa-play"></i>
+              </button>
+
+              <button class="btn btn-player" id="next">
+                <i class="fa-solid fa-forward-fast"></i>
+              </button>
+            </div>
+
+            <div class="music-info">
+              <p id="title" class="title"></p>
+              <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+              </div>
             </div>
           </div>
         </div>
