@@ -44,14 +44,37 @@ class clock {
     // dabartiniai metai
     const todayYear = now.getFullYear();
     // koncerto data
-    let concerTime = todayYear + "-" + this.targetDate;
+    let concertTime = todayYear + "-" + this.targetDate;
     // numatomas laikas
-    const concertDate = new Date(concerTime);
+    let concertDate = new Date(concerTime);
+
+    const nowMiliseconds = now.getTime();
+    let futureMiliseconds = concertDate.getTime();
+
+    if (nowMiliseconds > now) {
+      concertTime = todayYear + 1 + "-" + this.targetDate;
+      concertDate = new Date(concertTime);
+      futureMiliseconds = concertDate.getTime();
+    }
+
+    const remainingMiliseconds = futureMiliseconds - nowMiliseconds;
+    let remainingSeconds = Math.floor(remainingMiliseconds / 1000);
+
+    const days = Math.floor(remainingSeconds / 60 / 60 / 24);
+    remainingSeconds -= days * 60 * 60 * 24;
+
+    const hours = Math.floor(remainingSeconds / 60 / 60);
+    remainingSeconds -= hours * 60 * 60;
+
+    const minutes = remainingSeconds / 60;
+    remainingSeconds -= minutes * 60;
+
+    return [days, hours, minutes, remainingSeconds];
   }
 
   render() {
-    const timeValues = this.formatTime([6, 50, 9, 49, 20]);
-    const titleValues = ["Months", "Days", "Hours", "Minutes", "Seconds"];
+    const timeValues = this.formatTime(this.calcDeadline());
+    const titleValues = ["Days", "Hours", "Minutes", "Seconds"];
     let HTML = "";
 
     for (let i = 0; i < timeValues.length; i++) {
