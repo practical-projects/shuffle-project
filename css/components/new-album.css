@@ -30,6 +30,11 @@
   transition: width 0.1s linear;
 }
 
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
 /* media */
 @media (min-width: 500px) {
   .title-30 {

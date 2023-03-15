@@ -79,3 +79,8 @@ audio.addEventListener('ended', nextSong);
 loadSong(songs[songIndex]);
 
 // new-album end
+
+// new-album canvas start
+
+// new-album canvas end
+
