@@ -9,7 +9,7 @@ const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
 
 // dainu pavadinimu sarasaras
-const songs = ['Ran-D & Endymion ft. LePrince - Run From Reality (Official Lyric Video - Qlimax 2019)', 'Ran-D - Living for the Moment (Official Videoclip)', 'Ran-D - Zombie (official videoclip)', 'Ran-D - Hurricane (Official Videoclip)'];
+const songs = ['2Kvėpavimas feat. Adrina - Švyturys tarp vandenynų', '2Kvėpavimas - Panamera', '2Kvėpavimas - Vasarinė mergaitė', '2Kvėpavimas - Leidžiu tau viską', '2Kvėpavimas - Man viskas Kanarai'];
 
 let songIndex = 0;
 

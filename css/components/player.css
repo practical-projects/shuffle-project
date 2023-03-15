@@ -17,7 +17,7 @@
   margin-top: 20px;
   float: right;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .music-info p {
@@ -28,10 +28,16 @@
   .music-container {
     width: 400px;
   }
+  .music-info {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 992px) {
   .music-container {
     width: 500px;
+  }
+  .music-info {
+    font-size: 16px;
   }
 }
