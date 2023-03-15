@@ -39,6 +39,16 @@ class clock {
     return updateTime;
   }
 
+  calcDeadline() {
+    const now = new Date();
+    // dabartiniai metai
+    const todayYear = now.getFullYear();
+    // koncerto data
+    let concerTime = todayYear + "-" + this.targetDate;
+    // numatomas laikas
+    const concertDate = new Date(concerTime);
+  }
+
   render() {
     const timeValues = this.formatTime([6, 50, 9, 49, 20]);
     const titleValues = ["Months", "Days", "Hours", "Minutes", "Seconds"];
