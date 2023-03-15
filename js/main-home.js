@@ -3,49 +3,46 @@ const musicContainer = document.getElementById('music-container');
 const playBtn = document.getElementById('play');
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
-
 const audio = document.getElementById('audio');
 const progress = document.getElementById('progress');
 const progressContainer = document.getElementById('progress-container');
-const title = document.getElementById('songName');
+const title = document.getElementById('title');
 
-const songs = ['man viskas Kanarai.mp3', 'without Me.mp3', 'calm Down Long ,Tik Tik, Lyrics.mp3', 'melody.mp3'];
+// dainu pavadinimu sarasaras
+const songs = ['2Kvėpavimas - Man viskas Kanarai', 'Eminem - Without Me (Official Music Video)', 'Rema, Selena Gomez   Calm Down Long ,Tik Tik, Lyrics', 'Sigala - Melody (Official Video)'];
 
-let songIndex = 2;
+let songIndex = 3;
 
 // Dainu pavadinimai didziosiomis
-function getSongTitle(song) {
-   return song.charAt(0).toUpperCase() + song.slice(1);
+function getSongTitle() {
+   for (let i = 0; i < songs.length; i++) {
+      return songs[i].charAt(0).toUpperCase() + songs[i].slice(1);
+   }
 }
 
 // Ikeliamas dainos pavadinimas kaip parametras:
 function loadSong(song) {
-   title.innerText = getSongTitle(song);
-   audio.src = `../img/audio/${song}`;
+   title.innerText = `${getSongTitle(song)}`;
+   audio.src = `../img/music/${song}.mp3`;
 };
-
 function playSong() {
    musicContainer.classList.add("play");
    playBtn.querySelector("i.fa-solid").classList.remove("fa-play");
    playBtn.querySelector("i.fa-solid").classList.add("fa-pause");
    audio.play();
 }
-
 function pauseSong() {
    musicContainer.classList.remove("play");
    playBtn.querySelector("i.fa-solid").classList.remove("fa-pause");
    playBtn.querySelector("i.fa-solid").classList.add("fa-play");
    audio.pause();
 }
-
 function prevSong() {
    songIndex--;
-
    if (songIndex < 0) songIndex = songs.length - 1;
    loadSong(songs[songIndex]);
    playSong();
 }
-
 function nextSong() {
    songIndex++;
 
@@ -53,13 +50,11 @@ function nextSong() {
    loadSong(songs[songIndex]);
    playSong();
 }
-
 function updateProgress(e) {
    const { duration, currentTime } = e.srcElement;
    const progressPercent = (currentTime / duration)
    progress.style.width = `${progressPercent}%`
 }
-
 function setProgress(e) {
    const width = this.clientWidth;
    const clickX = e.offsetX;
