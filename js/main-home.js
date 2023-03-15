@@ -9,9 +9,9 @@ const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
 
 // dainu pavadinimu sarasaras
-const songs = ['2Kvėpavimas - Man viskas Kanarai', 'Eminem - Without Me (Official Music Video)', 'Rema, Selena Gomez   Calm Down Long ,Tik Tik, Lyrics', 'Sigala - Melody (Official Video)'];
+const songs = ['Ran-D & Endymion ft. LePrince - Run From Reality (Official Lyric Video - Qlimax 2019)', 'Ran-D - Living for the Moment (Official Videoclip)', 'Ran-D - Zombie (official videoclip)', 'Ran-D - Hurricane (Official Videoclip)'];
 
-let songIndex = 3;
+let songIndex = 0;
 
 // Dainu pavadinimai didziosiomis
 function getSongTitle() {
