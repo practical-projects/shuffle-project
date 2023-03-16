@@ -13,16 +13,11 @@ const songs = ['2Kvėpavimas feat. Adrina - Švyturys tarp vandenynų', '2Kvėpa
 
 let songIndex = 0;
 
-// Dainu pavadinimai didziosiomis
-function getSongTitle() {
-   for (let i = 0; i < songs.length; i++) {
-      return songs[i].charAt(0).toUpperCase() + songs[i].slice(1);
-   }
-}
+loadSong(songs[songIndex]);
 
 // Ikeliamas dainos pavadinimas kaip parametras:
 function loadSong(song) {
-   title.innerText = `${getSongTitle(song)}`;
+   title.innerText = song;
    audio.src = `../img/music/${song}.mp3`;
 };
 function playSong() {
@@ -39,14 +34,18 @@ function pauseSong() {
 }
 function prevSong() {
    songIndex--;
-   if (songIndex < 0) songIndex = songs.length - 1;
+   if (songIndex < 0) {
+      songIndex = songs.length - 1;
+   }
    loadSong(songs[songIndex]);
    playSong();
 }
 function nextSong() {
    songIndex++;
 
-   if (songIndex > songs.length - 1) songIndex = 0;
+   if (songIndex > songs.length - 1) {
+      songIndex = 0;
+   }
    loadSong(songs[songIndex]);
    playSong();
 }
