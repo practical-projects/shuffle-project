@@ -14,7 +14,7 @@
 }
 
 .progress-container {
-  background-color: #fff;
+  background-color: #333e5e;
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0 0 25px;
@@ -28,7 +28,6 @@
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
-  padding: 2px;
 }
 
 /* media */
