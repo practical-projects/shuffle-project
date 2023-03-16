@@ -1,6 +1,7 @@
 .new-album > img {
-  width: 300px;
+  width: 250px;
   height: 300px;
+  margin-left: 20px;
 }
 
 .title-30 {
@@ -17,7 +18,7 @@
   background-color: #333e5e;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px 0 0 25px;
+  margin: 10px 0 0 0;
   height: 4px;
   width: 60%;
 }
@@ -37,7 +38,7 @@
     line-height: 55px;
   }
   .new-album > img {
-    width: 450px;
+    width: 400px;
     height: 450px;
   }
 }
@@ -48,7 +49,7 @@
     line-height: 55px;
   }
   .new-album > img {
-    width: 450px;
+    width: 400px;
     height: 450px;
   }
   .socials-icon > img:nth-child(2) {
@@ -62,8 +63,11 @@
     line-height: 65px;
   }
   .new-album > img {
-    width: 600px;
+    width: 550px;
     height: 600px;
+  }
+  .progress-container {
+    margin: 10px 0 0 10px;
   }
 }
 
@@ -74,7 +78,10 @@
   }
   .new-album > img {
     width: 450px;
-    height: 450px;
+    height: 500px;
+  }
+  .progress-container {
+    margin: 10px 0 0 20px;
   }
 }
 
@@ -84,7 +91,7 @@
     line-height: 65px;
   }
   .new-album > img {
-    width: 500px;
+    width: 450px;
     height: 500px;
   }
 }
