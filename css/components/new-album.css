@@ -88,6 +88,7 @@
     height: 500px;
   }
 }
+
 @media (min-width: 1400px) {
   .title-30 {
     font-size: 55px;
