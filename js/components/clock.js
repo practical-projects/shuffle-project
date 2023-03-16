@@ -2,7 +2,9 @@ class clock {
   constructor(selector, targetDate) {
     this.selector = selector;
     this.targetDate = targetDate;
+
     this.DOM = null;
+    this.allValuesDOM = null;
     this.init();
   }
 
@@ -46,7 +48,7 @@ class clock {
     // koncerto data
     let concertTime = todayYear + "-" + this.targetDate;
     // numatomas laikas
-    let concertDate = new Date(concerTime);
+    let concertDate = new Date(concertTime);
 
     const nowMiliseconds = now.getTime();
     let futureMiliseconds = concertDate.getTime();
@@ -60,16 +62,25 @@ class clock {
     const remainingMiliseconds = futureMiliseconds - nowMiliseconds;
     let remainingSeconds = Math.floor(remainingMiliseconds / 1000);
 
-    const days = Math.floor(remainingSeconds / 60 / 60 / 24);
-    remainingSeconds -= days * 60 * 60 * 24;
+    const dienos = Math.floor(remainingSeconds / 60 / 60 / 24);
+    remainingSeconds -= dienos * 60 * 60 * 24;
 
-    const hours = Math.floor(remainingSeconds / 60 / 60);
-    remainingSeconds -= hours * 60 * 60;
+    const valandos = Math.floor(remainingSeconds / 60 / 60);
+    remainingSeconds -= valandos * 60 * 60;
 
     const minutes = remainingSeconds / 60;
     remainingSeconds -= minutes * 60;
 
-    return [days, hours, minutes, remainingSeconds];
+    return [dienos, valandos, minutes, remainingSeconds];
+  }
+
+  updateClock() {
+    setInterval(() => {
+      const timeValues = this.formatTime(this.calcDeadline());
+      for (let i = 0; i < 4; i++) {
+        this.allValuesDOM[i].innerText = timeValues[i];
+      }
+    }, 1000);
   }
 
   render() {
@@ -84,6 +95,7 @@ class clock {
          </div>`;
     }
     this.DOM.innerHTML = HTML;
+    this.allValuesDOM = this.DOM.querySelectorAll(".value");
   }
 }
 // function clock(selector) {
