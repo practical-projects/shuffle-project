@@ -23,11 +23,12 @@
 }
 
 .progress {
-  background-color: #e74e08;
+  background-color: #f09531;
   border-radius: 5px;
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
+  padding: 2px;
 }
 
 /* media */

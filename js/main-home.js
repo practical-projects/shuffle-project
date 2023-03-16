@@ -51,8 +51,8 @@ function nextSong() {
 }
 function updateProgress(e) {
    const { duration, currentTime } = e.srcElement;
-   const progressPercent = (currentTime / duration)
-   progress.style.width = `${progressPercent}%`
+   const progressPercent = (currentTime / duration) * 100;
+   progress.style.width = `${progressPercent}%`;
 }
 function setProgress(e) {
    const width = this.clientWidth;
