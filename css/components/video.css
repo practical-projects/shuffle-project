@@ -1,8 +1,9 @@
 .video-section > div > div > a > .fa-regular {
   display: inline-block;
   width: 100%;
-  margin-left: 50%;
-  font-size: 80px;
+  margin-left: 47%;
+  margin-top: 20px;
+  font-size: 100px;
   color: white;
   margin-top: 100px;
 }

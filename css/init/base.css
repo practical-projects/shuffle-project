@@ -18,9 +18,11 @@
 }
 
 .video-section {
-  background-image: url(../../img/video-bg.jpg);
+  background-image: url(../../img/vinyl.jpg);
+  height: 100vh;
   background-size: cover;
-  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-position: top;
   background-attachment: fixed;
 }
 
