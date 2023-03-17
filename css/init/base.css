@@ -16,6 +16,14 @@
   background-position: center;
   background-attachment: fixed;
 }
+
+.video-section {
+  background-image: url(../../img/video-bg.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  background-attachment: fixed;
+}
+
 .ftr-color-light {
   color: #c3c3c3;
 }
