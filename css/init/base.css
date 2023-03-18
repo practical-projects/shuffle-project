@@ -10,19 +10,11 @@
 .bg-dark-grey {
   background-color: #1c1c1c;
 }
+
 .new-album-bg {
   background-image: url(../../img/wp2910967.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-}
-
-.video-section {
-  background-image: url(../../img/vinyl.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   background-attachment: fixed;
 }
 

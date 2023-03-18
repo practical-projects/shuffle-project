@@ -1,9 +1,67 @@
-.video-section > div > div > a > .fa-regular {
+.video-section {
+  background-image: url(../../img/vinyl.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.video-section > div > a > .fa-regular {
   display: inline-block;
   width: 100%;
   margin-left: 47%;
-  margin-top: 400px;
-  font-size: 100px;
+  font-size: 150px;
   color: white;
-  margin-top: 100px;
+  margin: 440px 0 0 50px;
+}
+
+/* media */
+@media (min-width: 300px) {
+  .video-section > div > a > .fa-regular {
+    font-size: 200px;
+    margin: 400px 0 0 100px;
+  }
+}
+
+@media (min-width: 400px) {
+  .video-section > div > a > .fa-regular {
+    font-size: 200px;
+    margin: 400px 0 0 100px;
+  }
+}
+
+@media (min-width: 500px) {
+  .video-section > div > a > .fa-regular {
+    margin: 400px 0 0 150px;
+  }
+}
+
+@media (min-width: 576px) {
+  .video-section > div > a > .fa-regular {
+    margin: 400px 0 0 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .video-section > div > a > .fa-regular {
+    margin: 400px 0 0 260px;
+  }
+}
+
+@media (min-width: 992px) {
+  .video-section > div > a > .fa-regular {
+    margin: 400px 0 0 390px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video-section > div > a > .fa-regular {
+    margin: 400px 0 0 480px;
+  }
+}
+@media (min-width: 1400px) {
+  .video-section > div > a > .fa-regular {
+    margin: 400px 0 0 570px;
+  }
 }
