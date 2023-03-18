@@ -1,0 +1,58 @@
+.background {
+  background-image: url(../../img/video-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(15px);
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(5px);
+}
+
+.video-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 100%;
+  height: 35vh;
+}
+
+@media (min-width: 500px) {
+  .video {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .video {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .video {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .video {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video {
+    height: 75vh;
+  }
+}
