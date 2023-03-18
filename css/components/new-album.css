@@ -1,6 +1,6 @@
 .new-album > img {
   width: 250px;
-  height: 300px;
+  height: 200px;
   margin-left: 20px;
 }
 
@@ -38,8 +38,8 @@
     line-height: 55px;
   }
   .new-album > img {
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 250px;
   }
 }
 
@@ -49,8 +49,8 @@
     line-height: 55px;
   }
   .new-album > img {
-    width: 400px;
-    height: 450px;
+    width: 350px;
+    height: 300px;
   }
   .socials-icon > img:nth-child(2) {
     margin-left: 20px;
@@ -63,8 +63,8 @@
     line-height: 65px;
   }
   .new-album > img {
-    width: 550px;
-    height: 600px;
+    width: 350px;
+    height: 300px;
   }
   .progress-container {
     margin: 10px 0 0 10px;
@@ -78,7 +78,7 @@
   }
   .new-album > img {
     width: 450px;
-    height: 500px;
+    height: 400px;
   }
   .progress-container {
     margin: 10px 0 0 20px;
@@ -91,8 +91,8 @@
     line-height: 65px;
   }
   .new-album > img {
-    width: 450px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
   }
 }
 
