@@ -19,8 +19,8 @@
 }
 
 .video {
-  width: 940px;
-  height: 400px;
+  width: 70vw;
+  height: 59vh;
   box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
   -webkit-box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
   -moz-box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
