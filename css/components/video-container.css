@@ -24,5 +24,29 @@
 
 .video {
   width: 100%;
-  height: 100%;
+  height: 30vh;
+}
+
+@media (min-width: 500px) {
+  .video {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .video {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .video {
+    height: 55vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .video {
+    height: 70vh;
+  }
 }
