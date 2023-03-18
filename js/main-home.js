@@ -1,3 +1,12 @@
+// clock start
+import { clock } from "./components/clock.js";
+import { playPause } from "./components/player.js";
+import { clockData } from "./data/clockData.js";
+// clock end
+playPause();
+
+new clock("#clock", clockData);
+
 // new-album start
 const musicContainer = document.getElementById('music-container');
 const playBtn = document.getElementById('play');
@@ -74,3 +83,4 @@ audio.addEventListener('ended', nextSong);
 loadSong(songs[songIndex]);
 
 // new-album end
+
