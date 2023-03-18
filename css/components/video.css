@@ -1,67 +1,43 @@
 .video-section {
-  background-image: url(../../img/vinyl.jpg);
-  height: 100vh;
+  background-image: url(../../img/video-bg-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-attachment: fixed; */
+  background-attachment: center;
+  height: 500px;
 }
 
-.video-section > div > a > .fa-regular {
-  display: inline-block;
+.video-section > div > div {
+  display: flex;
+  margin-top: 180px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.video-section > div > div > a > .fa-regular {
   width: 100%;
-  margin-left: 47%;
-  font-size: 150px;
+  font-size: 80px;
   color: white;
-  margin: 440px 0 0 50px;
 }
 
 /* media */
-@media (min-width: 300px) {
-  .video-section > div > a > .fa-regular {
-    font-size: 200px;
-    margin: 400px 0 0 100px;
-  }
-}
-
-@media (min-width: 400px) {
-  .video-section > div > a > .fa-regular {
-    font-size: 200px;
-    margin: 400px 0 0 100px;
-  }
-}
-
-@media (min-width: 500px) {
-  .video-section > div > a > .fa-regular {
-    margin: 400px 0 0 150px;
-  }
-}
 
 @media (min-width: 576px) {
-  .video-section > div > a > .fa-regular {
-    margin: 400px 0 0 180px;
+  .video-section > div > div > a > .fa-regular {
+    font-size: 120px;
   }
 }
 
 @media (min-width: 768px) {
-  .video-section > div > a > .fa-regular {
-    margin: 400px 0 0 260px;
+  .video-section > div > div > a > .fa-regular {
+    font-size: 150px;
   }
 }
 
 @media (min-width: 992px) {
-  .video-section > div > a > .fa-regular {
-    margin: 400px 0 0 390px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .video-section > div > a > .fa-regular {
-    margin: 400px 0 0 480px;
-  }
-}
-@media (min-width: 1400px) {
-  .video-section > div > a > .fa-regular {
-    margin: 400px 0 0 570px;
+  .video-section > div > div > a > .fa-regular {
+    font-size: 200px;
+    margin-top: 0;
   }
 }
