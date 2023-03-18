@@ -1,7 +1,7 @@
-.container .video-container {
+.background {
   height: 100vh;
-  background-image: url(../../img/vinyl.jpg);
-  backdrop-filter: blur(10px);
+  width: 100vw;
+  backdrop-filter: blur(15px);
   position: absolute;
   z-index: -1;
   display: flex;
@@ -9,7 +9,19 @@
   align-items: center;
   filter: blur(5px);
 }
+
+.video-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .video {
-  width: 900px;
-  height: 500px;
+  width: 940px;
+  height: 400px;
+  box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
+  -webkit-box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
+  -moz-box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
 }
