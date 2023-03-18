@@ -12,9 +12,10 @@
 }
 
 .new-album-bg {
-  background-image: url(../../img/wp2910967.jpg);
+  background-image: url(../../img/ocean.jpg);
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
   background-attachment: fixed;
 }
 
