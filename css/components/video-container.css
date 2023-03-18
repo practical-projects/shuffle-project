@@ -24,7 +24,7 @@
 
 .video {
   width: 100%;
-  height: 30vh;
+  height: 35vh;
 }
 
 @media (min-width: 500px) {
@@ -41,12 +41,18 @@
 
 @media (min-width: 768px) {
   .video {
-    height: 55vh;
+    height: 50vh;
   }
 }
 
 @media (min-width: 992px) {
   .video {
     height: 70vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video {
+    height: 75vh;
   }
 }
