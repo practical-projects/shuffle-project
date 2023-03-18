@@ -1,4 +1,8 @@
 .background {
+  background-image: url(../../img/vinyl.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   backdrop-filter: blur(15px);
@@ -19,9 +23,30 @@
 }
 
 .video {
-  width: 70vw;
-  height: 59vh;
+  width: 100vw;
+  height: 100vh;
   box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
   -webkit-box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
   -moz-box-shadow: 32px 31px 55px 23px rgba(11, 22, 25, 0.71);
+}
+
+@media (min-width: 400px) {
+}
+
+@media (min-width: 500px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
 }
