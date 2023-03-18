@@ -74,6 +74,3 @@ audio.addEventListener('ended', nextSong);
 loadSong(songs[songIndex]);
 
 // new-album end
-
-
-
