@@ -1,4 +1,15 @@
-video {
+.container .video-container {
   height: 100vh;
-  width: 100vw;
+  background-image: url(../../img/vinyl.jpg);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(5px);
+}
+.video {
+  width: 900px;
+  height: 500px;
 }
