@@ -41,7 +41,6 @@
 
 .twoLogos {
   display: block;
-  /* width: 25%; */
   text-align: center;
 }
 
@@ -50,15 +49,15 @@
 }
 
 @media (max-width: 576px) {
-  .col-12 > .biggest-title {
+  .biggest-title {
     font-size: 1.5em;
   }
 
-  .col-12 > .email {
+  .email {
     margin: 0 0 0 0;
   }
 
-  .col-12 > .logos {
+  .logos {
     margin: 2em 0 0 0;
   }
 
@@ -114,7 +113,4 @@
   .email {
     padding: 0 0;
   }
-}
-
-@media (min-width: 1400px) {
 }

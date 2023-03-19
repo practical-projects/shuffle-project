@@ -15,20 +15,10 @@
 @import "../css/components/footer.css";
 @import "../css/components/video.css";
 
+/* header start */
 /* header end */
 
 /* Hero start */
-.hero-socials-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3em 0 0 0;
-  flex-wrap: wrap;
-}
-
-.hero-socials-icon > img {
-  margin-top: 10px;
-}
 
 /* Hero end */
 

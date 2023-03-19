@@ -1,9 +1,7 @@
 // clock start
 import { clock } from "./components/clock.js";
-import { playPause } from "./components/player.js";
 import { clockData } from "./data/clockData.js";
 // clock end
-playPause();
 
 new clock("#clock", clockData);
 

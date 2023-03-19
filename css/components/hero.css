@@ -8,25 +8,15 @@
   background-attachment: fixed;
 }
 
-.text-element-group {
-  margin-top: 80px;
-  color: #fff;
+.hero-socials-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em 0 0 0;
+  flex-wrap: wrap;
+  cursor: pointer;
 }
 
-/* @media (min-width: 576px) {
-  .hero {
-    height: 80vh;
-  }
+.hero-socials-icon > a > img {
+  margin: 10px;
 }
-
-@media (min-width: 768px) {
-  .hero {
-    height: 50vh;
-  }
-}
-
-@media (min-width: 992px) {
-  .hero {
-    height: 80vh;
-  }
-} */
