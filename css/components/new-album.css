@@ -53,9 +53,10 @@
     width: 350px;
     height: 300px;
   }
-  .socials-icon > img:nth-child(2) {
+
+  /* .socials-icon > img:nth-child(2) {
     margin-left: 20px;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
