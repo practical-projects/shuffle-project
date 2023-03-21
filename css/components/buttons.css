@@ -9,6 +9,10 @@
   padding-top: 10px;
 }
 
+.email > button:active {
+  background-color: aliceblue;
+}
+
 .btn-player {
   transition: all 0.5s;
   position: relative;
