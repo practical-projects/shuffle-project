@@ -34,15 +34,14 @@
   margin: auto;
   text-align: center;
   justify-items: center;
-  padding: 40px 0;
+  padding: 100px 0;
   overflow: hidden;
   position: relative;
 }
 
 .slider-track {
   display: flex;
-  /* animation: scroll 40s linear infinite; */
-  width: calc(250 * 14);
+  animation: scroll 40s linear infinite;
 }
 
 .slide {
@@ -51,7 +50,8 @@
 }
 
 .slide > a > img {
-  height: 40px;
+  height: 45px;
+  width: 190px;
   padding: 0 30px;
 }
 
