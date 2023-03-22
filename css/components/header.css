@@ -22,6 +22,75 @@ header {
 
 .nav {
   display: flex;
+  margin: 30px 0 0 0;
+  position: relative;
+}
+
+.nav > a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.dropdown {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.dropdown > a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.submeniu {
+  display: none;
+  flex-direction: column;
+  padding: 0 20px;
+  position: absolute;
+}
+
+.submeniu > a {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.submeniu a:hover {
+  color: #8d8d8d;
+  border-bottom: 1px solid #fff;
+}
+
+.nav .dropdown:hover .submeniu {
+  display: flex;
+  background-color: #000;
+}
+
+.nav .dropdown:nth-child(1):hover .submeniu {
+  left: -23px;
+}
+
+.nav .dropdown:nth-child(3):hover .submeniu {
+  left: 160px;
+}
+
+.nav .dropdown:nth-child(4):hover .submeniu {
+  left: 258px;
+}
+
+.nav .dropdown:nth-child(6):hover .submeniu {
+  right: 243px;
+}
+
+.nav .dropdown:nth-child(7):hover .submeniu {
+  right: 153px;
+}
+
+/* .nav {
+  display: flex;
   position: relative;
   align-items: center;
   text-transform: uppercase;
@@ -78,7 +147,7 @@ header {
 
 .nav .dropdown:nth-child(7):hover .submeniu {
   left: -50px;
-}
+} */
 
 .socials {
   align-items: center;
