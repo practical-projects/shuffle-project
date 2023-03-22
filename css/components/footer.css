@@ -6,6 +6,10 @@
   width: 25%;
 }
 
+.align-footer-left > .socials {
+  padding: 20px 0;
+}
+
 .align-footer-left img {
   width: 70px;
   height: 51px;
