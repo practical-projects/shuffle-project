@@ -212,9 +212,11 @@ header {
     flex-direction: column;
     text-align: center;
     transform: translateY(-150%);
-    z-index: 1;
+    height: 0;
+
     color: #8d8d8d;
     background-color: #000;
+    overflow: hidden;
   }
 
   .nav a {
@@ -275,6 +277,7 @@ header {
   }
 
   input:checked ~ .nav {
+    height: max-content;
     transform: translateX(0%) translateY(0%);
   }
 }
