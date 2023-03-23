@@ -109,6 +109,7 @@ header {
 .dropdown {
   display: inline-block;
   position: relative;
+  
 }
 
 .submeniu {
@@ -147,7 +148,7 @@ header {
 
 .nav .dropdown:nth-child(7):hover .submeniu {
   left: -50px;
-} */
+}
 
 .socials {
   align-items: center;
