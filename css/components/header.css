@@ -149,7 +149,7 @@ header {
 .nav .dropdown:nth-child(7):hover .submeniu {
   left: -50px;
 }
-
+*/
 .socials {
   align-items: center;
   font-weight: 900;
@@ -173,7 +173,7 @@ header {
 }
 
 /* responsive header */
-@media (min-width: 867px) {
+@media (min-width: 900px) {
   .hamburger {
     display: none;
   }
@@ -187,7 +187,7 @@ header {
   }
 }
 
-@media (max-width: 867px) {
+@media (max-width: 900px) {
   header {
     display: flex;
     flex-direction: column;
