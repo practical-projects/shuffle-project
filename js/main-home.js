@@ -23,7 +23,7 @@ loadSong(songs[songIndex]);
 
 function loadSong(song) {
    title.innerText = song;
-   audio.src = `../music/${song}.mp3`;
+   audio.src = `./img/music/${song}.song`;
 }
 
 function playSong() {
