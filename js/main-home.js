@@ -1,6 +1,7 @@
 // clock start
 import { clock } from "./components/clock.js";
 import { clockData } from "./data/clockData.js";
+
 // clock end
 
 new clock("#clock", clockData);
@@ -22,7 +23,7 @@ loadSong(songs[songIndex]);
 
 function loadSong(song) {
    title.innerText = song;
-   audio.src = `../img/music/${song}.mp3`;
+   audio.src = `../music/${song}.mp3`;
 }
 
 function playSong() {
