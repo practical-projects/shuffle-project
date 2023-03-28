@@ -1,19 +1,19 @@
 .video-section {
-  background-image: url(../../img/video-bg-3.jpg);
+  background-image: url(../../img/video-bg-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: center;
   position: relative;
-  height: 500px;
+  height: 700px;
 }
 
 .video-section > div > div {
   display: flex;
   justify-content: center;
   position: absolute;
-  left: 300px;
-  top: 180px;
+  left: 45%;
+  top: 35%;
 }
 
 .video-section > div > div > a > .fa-regular {
@@ -24,21 +24,23 @@
 
 /* media */
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .video-section > div > div > a > .fa-regular {
-    font-size: 120px;
+    font-size: 80px;
+  }
+
+  body > .video-section {
+    height: 400px;
+  }
+
+  body > .video-section > div > div {
+    left: 42%;
+    top: 45%;
   }
 }
 
 @media (min-width: 768px) {
   .video-section > div > div > a > .fa-regular {
     font-size: 150px;
-  }
-}
-
-@media (min-width: 992px) {
-  .video-section > div > div > a > .fa-regular {
-    font-size: 200px;
-    margin-top: 0;
   }
 }
