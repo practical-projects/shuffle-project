@@ -203,7 +203,6 @@ header {
 
   .hamburger {
     font-size: 30px;
-
     cursor: pointer;
     color: #000;
   }
@@ -214,7 +213,6 @@ header {
     text-align: center;
     transform: translateY(-150%);
     height: 0;
-
     color: #8d8d8d;
     background-color: #000;
     overflow: hidden;
@@ -240,6 +238,7 @@ header {
 
   .submeniu a:hover {
     color: #ab2eba;
+    border-bottom: 1px solid #000000;
   }
 
   .socials {
@@ -268,6 +267,7 @@ header {
     top: 18px;
     left: 0px;
     width: 100%;
+    margin: 20px 0 -20px 0;
     padding: 0;
     position: inherit;
     background-color: #fff;
