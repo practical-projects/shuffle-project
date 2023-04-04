@@ -1,3 +1,13 @@
+.album {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  text-align: center;
+  margin: 120px 0 0 0;
+}
+
 .new-album > img {
   width: 250px;
   height: 200px;
@@ -19,9 +29,10 @@
   background-color: #333e5e;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px 0 0 0;
+  margin: 11px 0 0 0;
+  /* margin: 10px 0 0 0; */
   height: 4px;
-  width: 60%;
+  /* width: 60%; */
 }
 
 .progress {
@@ -68,9 +79,9 @@
     width: 350px;
     height: 300px;
   }
-  .progress-container {
+  /* .progress-container {
     margin: 10px 0 0 10px;
-  }
+  } */
 }
 
 @media (min-width: 992px) {
@@ -82,8 +93,14 @@
     width: 450px;
     height: 400px;
   }
-  .progress-container {
+  /* .progress-container {
     margin: 10px 0 0 20px;
+  } */
+}
+@media (max-width: 1118px) {
+  .album {
+    flex-direction: column;
+    text-align: center;
   }
 }
 

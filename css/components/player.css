@@ -13,9 +13,10 @@
   width: 50%;
   color: rgb(255, 255, 255);
   flex-direction: column;
-  text-align: center;
-  margin-top: 20px;
-  float: right;
+  margin: 23px 0 0 0;
+  /* text-align: center;
+  
+  float: right; */
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
@@ -25,15 +26,15 @@
 }
 
 @media (min-width: 768px) {
-  .music-container {
+  /* .music-container {
     width: 400px;
-  }
+  } */
   .music-info {
     font-size: 14px;
   }
-  .music-info p {
+  /* .music-info p {
     margin: 0 0 10px 10px;
-  }
+  } */
 }
 
 @media (min-width: 992px) {
@@ -43,7 +44,7 @@
   .music-info {
     font-size: 16px;
   }
-  .music-info p {
+  /* .music-info p {
     margin: 0 0 10px 20px;
-  }
+  } */
 }
